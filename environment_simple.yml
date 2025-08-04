@@ -1,0 +1,31 @@
+name: geospatial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - openai
+    - google-generativeai
+    - together
+    - geopandas
+    - rasterio
+    - folium
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+    - requests
+    - jsonlines
+    - tqdm
+    - scikit-learn
+    - scipy
+    - shapely
+    - pyproj
+    - fiona
+    - rasterstats
+    - geopy
+    - branca
+    - jinja2
+    - tabulate 
